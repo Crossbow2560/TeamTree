@@ -1,0 +1,55 @@
+:root{
+	--primary: #0D0D0D;
+	--accent1: #00F5D4;
+	--accent2: #FF2E8C;
+	--background: #1A1A1A;
+	--text: #E5E7EB;
+	--highlight: #FEE440;
+}
+
+#get-started{
+    background-color: var(--highlight);
+    height: 72px;
+    width: 265px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#header{
+    font-size: 128px;
+    color: var(--text);
+    font-weight: 400;
+    position: fixed;
+    top: 220px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+#sub-header{
+    font-size: 48px;
+    color: var(--text);
+    font-weight: 400;
+    position: fixed;
+    top: 420px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    user-select: none;
+}
+
+#button-container{
+    position: fixed;
+    top: 550px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}

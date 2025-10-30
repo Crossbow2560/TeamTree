@@ -1,0 +1,72 @@
+:root{
+	--primary: #0D0D0D;
+	--accent1: #00F5D4;
+	--accent2: #FF2E8C;
+	--background: #1A1A1A;
+	--text: #E5E7EB;
+	--highlight: #FEE440;
+}
+
+#logo{
+    height: 68px;
+    width: 68px;
+    margin: 10px 10px 10px 10px;
+    background-image: url('./TeamTreeLogo.png');
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#navbar{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary);
+    height: 90px;
+    overflow: hidden;
+}
+
+#title{
+    color: var(--text);
+    font-size: 32px;
+    margin: 15px 740px 10px 0;
+    user-select: none;
+}
+
+.menu-option{
+    color: var(--text);
+    font-size: 24px;
+    margin: 20px;
+
+    user-select: none;
+    cursor: pointer;
+}
+
+#compose-idea{
+    background-color: var(--highlight);
+    border-radius: 20px;
+    color: var(--primary);
+    padding: 0 10px 0 10px;
+    font-weight: bolder;
+}
+
+#profile{
+    background-color: var(--text);
+    border-radius: 48px;
+    height: 48px;
+    width: 48px;
+    margin: 20px 20px 20px 20px;
+    user-select: none;
+    cursor: pointer;
+
+}
+
+#home-header{
+    color: var(--text);
+    font-size: 48px;
+    width: 100vw;
+    padding: 30px;
+    box-sizing: border-box;
+}
